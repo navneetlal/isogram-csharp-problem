@@ -2,7 +2,7 @@
 
 namespace Isogram
 {
-    class IsogramCheck
+    public class IsogramCheck
     {
         public static bool IsIsogram(string str)
         {
@@ -44,6 +44,7 @@ namespace Isogram
         {
             /*Console.WriteLine("Hello World!");
             Console.WriteLine($"Answer for 'hi there' {IsogramCheck.IsIsogram("hi there")}");*/
+            Console.WriteLine($"{(int)' '}");
         }
     }
 }
